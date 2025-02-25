@@ -154,7 +154,7 @@ minify:
     exclude: # 排除 hexo-feed 用到的模板文件
       - '**/json.ejs'
       - '**/atom.ejs'
-      - '**/rss.ejs'
+      # - '**/rss.ejs'
   css:
     enable: true
     exclude:
