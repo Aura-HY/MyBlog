@@ -195,13 +195,13 @@ feed:
     category_dir: false
     rss:
         enable: true
-        template: "themes/shoka/layout/_alternate/rss.ejs"
+        template: "./themes/shoka/layout/_alternate/rss.ejs"
         output: "rss.xml"
     atom:
         enable: true
-        template: "themes/shoka/layout/_alternate/atom.ejs"
+        template: "./themes/shoka/layout/_alternate/atom.ejs"
         output: "atom.xml"
     jsonFeed:
         enable: true
-        template: "themes/shoka/layout/_alternate/json.ejs"
+        template: "./themes/shoka/layout/_alternate/json.ejs"
         output: "feed.json"
